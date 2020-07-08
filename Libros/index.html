@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+    <link rel ="stylesheet" href="https://use.typekit.net/fdn1aaf.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="../slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css">
+    <link rel="icon" type="image/png" href="../imagenes/logo.png" sizes="32x32" />
+
+    <script type="text/javascript" src="../script.js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6">
+        <img src="../imagenes/foto1.png" alt="" width="100%">
+      </div>
+      <div class="col-sm-6">
+        <img src="../imagenes/foto2.png" alt="" width="100%">
+      </div>
+    </div>
+  </div>
+  <a href="../index.html">
+  <marquee behavior="scroll" duplicated="true" direction="right" id="scrollnido">nido.discos.libros &emsp; nido.discos.libros &emsp; nido.discos.libros &emsp; nido.discos.libros &emsp; nido.discos.libros &emsp; nido.discos.libros &emsp; nido.discos.libros &emsp; nido.discos.libros &emsp; nido.discos.libros &emsp; nido.discos.libros &emsp; nido.discos.libros &emsp; nido.discos.libros</marquee>
+  </a>
+<script src="../slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+  $(document).on('ready', function() {
+    $(".vertical-center-4").slick({
+      dots: true,
+      vertical: true,
+      centerMode: true,
+      slidesToShow: 4,
+      slidesToScroll: 2
+    });
+    $(".vertical-center-3").slick({
+      dots: true,
+      vertical: true,
+      centerMode: true,
+      slidesToShow: 3,
+      slidesToScroll: 3
+    });
+    $(".vertical-center-2").slick({
+      dots: true,
+      vertical: true,
+      centerMode: true,
+      slidesToShow: 2,
+      slidesToScroll: 2
+    });
+    $(".vertical-center").slick({
+      dots: true,
+      vertical: true,
+      centerMode: true,
+    });
+    $(".vertical").slick({
+      dots: true,
+      vertical: true,
+      slidesToShow: 3,
+      slidesToScroll: 3
+    });
+    $(".regular").slick({
+      dots: true,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 3
+    });
+    $(".center").slick({
+      dots: false,
+      infinite: true,
+      centerMode: true,
+      slidesToShow: 4,
+      slidesToScroll: 10
+    });
+    $(".variable").slick({
+      dots: true,
+      infinite: true,
+      variableWidth: true
+    });
+    $(".lazy").slick({
+      lazyLoad: 'ondemand', // ondemand progressive anticipated
+      infinite: true
+    });
+  });
+</script>
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+
+<h1 id="titulos">Libros</h1>
+<p id="datalibros">
+  Nido Discos Libros
+  <br>
+  Disqueria y Libreria Independiente
+</p>
+
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-sm-3">
+        <img src="imagenes/libro1.jpg" alt="" width="100%">
+
+                  <p id="datalibros">
+                    <br>
+                  Flatiron Books | Ingles <br> 362 Paginas <br> Mark Frost | 2013
+                </p>
+                <h4 id="precio">$ 650</h4>
+                  <h5>THE SECRET HISTORY OF TWIN PEAKS: A NOVEL </h5>
+                  <p id="datalibros">
+                  From the co-creator of the landmark television series Twin Peaks comes a novel that deepens the mysteries of the iconic town.
+                </p>
+      </div>
+
+      <div class="col-sm-3">
+        <img src="imagenes/libro2.jpg" alt="" width="100%">
+                  <p id="datalibros">
+                    <br>
+                  Kerber | Ingles <br> 208 Paginas <br> DYER GEOFF | 2013
+                </p>
+                <h4 id="precio">$ 650</h4>
+                  <h5>PHILIP-LORCA DICORCIA</h5>
+                  <p id="datalibros">
+                  The photography of Philip-Lorca diCorcia achieves a marvelous balance of artifice and the everyday.
+                </p>
+      </div>
+
+      <div class="col-sm-3">
+        <img src="imagenes/libro3.jpg" alt="" width="100%">
+                <p id="datalibros">
+                  <br>
+                Deutsche Guggenheim | Ingles <br> 60 Paginas <br> JENNIFER BLESSING & KATRIN BLUM | 2008
+              </p>
+            <h4 id="precio">$ 650</h4>
+                <h5>JEFF WALL: EXPOSURE</h5>
+                <p id="datalibros">
+                Exposure introduces four new large-scale black-and-white photographs by the Canadian artist Jeff Wall.
+              </p>
+      </div>
+
+      <div class="col-sm-3">
+        <img src="imagenes/libro4.jpg" alt="" width="100%">
+                <p id="datalibros">
+                  <br>
+                Figure 1 Publishing | Ingles <br> 64 Paginas <br> AARON PECK | 2016
+              </p>
+
+              <h4 id="precio">$ 650</h4>
+                <h5>JEFF WALL: NORTH & WEST</h5>
+                <p id="datalibros">
+                North and West explore the meaning of history and how we remember the cities we inhabit.
+              </p>
+      </div>
+  </div>
+<br>
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="imagenes/OETate.png" alt="" width="100%">
+              <p id="datalibros">
+                <br>
+              Tate Publishing | Ingles <br> 128 Paginas <br> Marcella Beccaria | 2013
+            </p>
+            <h4 id="precio">$ 650</h4>
+              <h5>TATE MODERN ARTISTS: OLAFUR ELIASSON</h5>
+              <p id="datalibros">
+              Tate Modern Artists series features new interviews with the artist and over 100 color illustrations.
+            </p>
+    </div>
+
+    <div class="col-sm-3">
+      <img src="imagenes/Aerosolar.png" alt="" width="100%">
+              <p id="datalibros">
+                <br>
+              Verlag der Buchhandlung Walther Konig | Ingles <br> 128 Paginas <br> Heather Davis, Philip Ursprung, Rene Zechlin | 2017
+            </p>
+            <h4 id="precio">$ 650</h4>
+              <h5>TOMAS SARACENO: AEROSOLAR JOURNEYS</h5>
+              <p id="datalibros">
+              Tate Modern Artists series features new interviews with the artist and over 100 color illustrations.
+            </p>
+    </div>
+
+    <div class="col-sm-3">
+      <img src="imagenes/AndrewMTulips.png" alt="" width="100%">
+              <p id="datalibros">
+                <br>
+              Arok Books | Ingles <br> 164 pages <br> Andrew Miksys | 2016
+            </p>
+            <h4 id="precio">$ 650</h4>
+              <h5>TULIPS</h5>
+              <p id="datalibros">
+              A photography book about contemporary Belarus by Andrew Miksys. TULIPS was chosen by TATE Modern photography curator, Simon Baker as one of best photobooks of 2016.
+            </p>
+    </div>
+
+    <div class="col-sm-3">
+      <img src="imagenes/AndrwMDisko.png" alt="" width="100%">
+              <p id="datalibros">
+                <br>
+              Arok Books | Ingles <br> 104 pages <br> Andrew Miksys | 2013
+            </p>
+            <h4 id="precio">$ 650</h4>
+              <h5>DISKO</h5>
+              <p id="datalibros">
+              This is the second edition of DISKO, Andrew Miksys' acclaimed book of photographs of Lithuanian village discos.
+            </p>
+    </div>
+  </div>
+<br>
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="imagenes/DanFARetrospective.png" alt="" width="100%">
+              <p id="datalibros">
+                <br>
+              Yale University Press | Ingles <br> 208 Paginas <br> Michael Govan, Tiffany Bell | 2004
+            </p>
+            <h4 id="precio">$ 650</h4>
+              <h5>DAN FLAVIN: A RETROSPECTIVE</h5>
+              <p id="datalibros">
+              This landmark book—the first retrospective publication of Flavin’s art since 1969—includes around 45 of the artist’s most important light works.
+            </p>
+    </div>
+
+    <div class="col-sm-3">
+      <img src="imagenes/DeliriusNewYork.png" alt="" width="100%">
+              <p id="datalibros">
+                <br>
+              Penguin Random House | Ingles <br> 320 Paginas <br> Rem Koolhaas | 2014
+            </p>
+            <h4 id="precio">$ 650</h4>
+              <h5>DELIRIOUS NEW YORK</h5>
+              <p id="datalibros">
+              Since its original publication in 1978, Delirious New York has attained mythic status. Back in print in a newly designed edition, this influential cultural, architectural, and social history of New York is even more popular.
+            </p>
+    </div>
+
+    <div class="col-sm-3">
+      <img src="imagenes/FlyingPlaza.png" alt="" width="100%">
+              <p id="datalibros">
+                <br>
+              Spector Books | Ingles <br> 208 pages <br> Tomas Saraceno | 2018
+            </p>
+            <h4 id="precio">$ 650</h4>
+              <h5>TOMÁS SARACENO: FYING PLAZA</h5>
+              <p id="datalibros">
+              Berlin-based Argentinian sculptor Tomás Saraceno (born 1973) offers a glimpse into his practice through reflections on collective coproduction.
+            </p>
+    </div>
+
+    <div class="col-sm-3">
+      <img src="imagenes/JamesTARetrospective.png" alt="" width="100%">
+              <p id="datalibros">
+                <br>
+              Prestel USA | Ingles <br> 304 pages <br> Michael Govan, Christine Y. Kim | 2013
+            </p>
+            <h4 id="precio">$ 650</h4>
+              <h5>JAMES TURRELL: A RETROSPECTIVE</h5>
+              <p id="datalibros">
+               This comprehensive volume illuminates the origins and motivations of James Turrell's incredibly diverse and exciting body of work.
+            </p>
+    </div>
+  </div>
+<br>
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="imagenes/JamesTVIllaPanza.png" alt="" width="100%">
+              <p id="datalibros">
+                <br>
+              Prestel | Ingles <br> 168 Paginas <br> Michael Govan, Anna Bernardini | 2014
+            </p>
+            <h4 id="precio">$ 650</h4>
+              <h5>ROBERT IRWIN | JAMES TURRELL: VILLA PANZA </h5>
+              <p id="datalibros">
+              The work of two central figures associated with West Coast contemporary art, Robert Irwin and James Turrell.
+            </p>
+    </div>
+
+    <div class="col-sm-3">
+      <img src="imagenes/Junkspace.png" alt="" width="100%">
+              <p id="datalibros">
+                <br>
+              Notting Hill Editions | Ingles <br> 96 Paginas <br> Rem Koolhaas | 2016
+            </p>
+            <h4 id="precio">$ 650</h4>
+              <h5>JUNKSPACE WITH RUNNING ROOM</h5>
+              <p id="datalibros">
+              A vast compendium of text, images, and data concerning the consumerist transformation of city and suburb from the first department store to the latest mega mall.
+            </p>
+    </div>
+
+    <div class="col-sm-3">
+      <img src="imagenes/LoveSavesTheDay.png" alt="" width="100%">
+              <p id="datalibros">
+                <br>
+              Duke University Press | Ingles <br> 522 pages <br> Tim Lawrence | 2004
+            </p>
+            <h4 id="precio">$ 650</h4>
+              <h5>LOVE SAVES THE DAY: A HISTORY OF AMERICAN DANCE MUSIC CULTURE</h5>
+              <p id="datalibros">
+              Tim Lawrence tells the definitive story of American dance music culture in the 1970s.
+    </div>
+
+    <div class="col-sm-3">
+      <img src="imagenes/LynchOnLynch.png" alt="" width="100%">
+              <p id="datalibros">
+                <br>
+              Faber & Faber | Ingles <br> 336 pages <br> David Lynch | 2015
+            </p>
+            <h4 id="precio">$ 650</h4>
+              <h5>LYNCH ON LYNCH</h5>
+              <p id="datalibros">
+               Lynch on Lynch describes the career of a cinematic genius who has continued to astonish filmgoers.
+            </p>
+    </div>
+  </div>
+<br>
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="imagenes/SmallImages.png" alt="" width="100%">
+              <p id="datalibros">
+                <br>
+              Lixil | Ingles <br> 160 Paginas <br> Junya Ishigami | 2012
+            </p>
+            <h4 id="precio">$ 650</h4>
+              <h5>JUNYA ISHIGAMI - SMALL IMAGES </h5>
+              <p id="datalibros">
+              Delightfully conceived, Ishigami has chosen to present the projects by his office dissected into 500 smaller illustrations and accompanied by some 150 blocks of text.
+            </p>
+    </div>
+
+    <div class="col-sm-3">
+      <img src="imagenes/TechnoRebels.png" alt="" width="100%">
+              <p id="datalibros">
+                <br>
+              Painted Turtle | Ingles <br> 176 Paginas <br> Dan Sicko | 2010
+            </p>
+            <h4 id="precio">$ 650</h4>
+              <h5>TECHNO REBELS: THE RENEGADES OF ELECTRONIC FUNK</h5>
+              <p id="datalibros">
+              When it was originally published in 1999, Techno Rebels became the definitive text on a hard-to-define but vital genre of music.
+            </p>
+    </div>
+
+    <div class="col-sm-3">
+      <img src="imagenes/TheDiscoFiles.png" alt="" width="100%">
+              <p id="datalibros">
+                <br>
+              D.A.P. | Ingles <br> 474 pages <br> Vince Aletti | 2018
+            </p>
+            <h4 id="precio">$ 650</h4>
+              <h5>THE DISCO FILES 1973–78: NEW YORK'S UUNDERGROUND, WEEK BY WEEK</h5>
+              <p id="datalibros">
+              Vince Aletti is disco's greatest chronicler, the first writer to cover the emerging scene.
+    </div>
+
+    <div class="col-sm-3">
+      <img src="imagenes/unforgivable.png" alt="" width="100%">
+              <p id="datalibros">
+                <br>
+              Black Dog Press | Ingles <br> 320 pages <br> David Lynch | 2016
+            </p>
+            <h4 id="precio">$ 650</h4>
+              <h5>CAROLEE SCHNEEMANN: UNFORGIVABLE</h5>
+              <p id="datalibros">
+               Carolee Schneemann is one of the most important artists of the postwar period. Her work in a huge range of media presents an unparalleled catalogue of radical aesthetic experimentation.
+    </div>
+  </div>
+<br>
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="imagenes/WongK.png" alt="" width="100%">
+              <p id="datalibros">
+                <br>
+              Rizzoli | Ingles <br> 304 Paginas <br> Junya Ishigami | 2016
+            </p>
+            <h4 id="precio">$ 650</h4>
+              <h5>WKW: THE CINEMA OF WONG KAR WAI </h5>
+              <p id="datalibros">
+              The long-awaited retrospective from the internationally renowned film director celebrated for his visually lush and atmospheric films.
+            </p>
+    </div>
+  </div>
+
+</div>
+<br>
+<hr>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6">
+      <h5>2019</h5>
+      <h5>Nido Discos Libros</h5>
+      <img src="imagenes/logonido.png" alt="" width="20%">
+    </div>
+    <div class="col-md-6">
+      <h5>
+      Direccion:
+      <br>
+      José A. Cabrera 5088
+      <br>
+      Buenos Aires
+      <br>
+      Argentina
+      <br>
+      <br>
+      Contact:
+      <br>
+      data.nido@gmail.com
+      <br>
+      @nido.discos.libros
+      </h5>
+
+    </div>
+</div>
+</div>
+
+
+</body>
+</html>

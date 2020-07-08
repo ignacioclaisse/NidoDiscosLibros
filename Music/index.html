@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+    <link rel ="stylesheet" href="https://use.typekit.net/fdn1aaf.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="../slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css">
+    <link rel="icon" type="image/png" href="../imagenes/logo.png" sizes="32x32" />
+
+    <script type="text/javascript" src="../script.js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6">
+        <img src="../imagenes/foto1.png" alt="" width="100%">
+      </div>
+      <div class="col-sm-6">
+        <img src="../imagenes/foto2.png" alt="" width="100%">
+      </div>
+    </div>
+  </div>
+  <a href="../index.html">
+  <marquee behavior="scroll" duplicated="true" direction="right" id="scrollnido">nido.discos.libros &emsp; nido.discos.libros &emsp; nido.discos.libros &emsp; nido.discos.libros &emsp; nido.discos.libros &emsp; nido.discos.libros &emsp; nido.discos.libros &emsp; nido.discos.libros &emsp; nido.discos.libros &emsp; nido.discos.libros &emsp; nido.discos.libros &emsp; nido.discos.libros</marquee>
+  </a>
+<script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+  $(document).on('ready', function() {
+    size_li = $("#myList li").size();
+    x=3;
+    $('#myList li:lt('+x+')').show();
+    $('#loadMore').click(function () {
+        x= (x+5 <= size_li) ? x+5 : size_li;
+        $('#myList li:lt('+x+')').show();
+    });
+    $('#showLess').click(function () {
+        x=(x-5<0) ? 3 : x-5;
+        $('#myList li').not(':lt('+x+')').hide();
+    });
+  });
+</script>
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+<h1 id="titulos">Discos</h1>
+<p id="datalibros">
+  Nido Discos Libros
+  <br>
+  Disqueria y Libreria Independiente
+</p>
+<div class="container-fluid">
+<ul id="myList">
+<li>
+<div class="row">
+      <div class="col-sm-3">
+
+        <img src="images/huerta.jpg" alt="" width="100%">
+          <p id="datalibros">
+            <br>
+          SLOW LIFE | 2018 | SL018
+        </p>
+        <h4 id="precio">$ 1400</h4>
+          <h5>LOUNGE LIZARD | HUERTA</h5>
+          <p id="datalibros">
+          Fresh-loungy-break jams, plus a dancefloor killer featuring label’s own S.Moriera.
+        </p>
+      </div>
+      <div class="col-sm-3">
+        <img src="images/mda.jpg" alt="" width="100%">
+                <p id="datalibros">
+                  <br>
+                MDA LABS | 2019 | MDAL-01
+              </p>
+              <h4 id="precio">$ 1400</h4>
+                <h5>SHINE EP | MDA ANALOG</h5>
+                <p id="datalibros">
+                After a long 15 year hiatus and due to popular demand, MDA Analog returns to present the debut release of MDA Labs.
+              </p>
+      </div>
+
+      <div class="col-sm-3">
+        <img src="images/rainy.png" alt="" width="100%">
+                <p id="datalibros">
+                  <br>
+                  MCDE | 2016 | MCDE 1214
+              </p>
+              <h4 id="precio">$ 2400</h4>
+                <h5>ITS ALL IN THE GROOVE | CITY PEOPLE / 20 BELOW</h5>
+                <p id="datalibros">
+                Deliciously deep, disco-house groove
+              </p>
+      </div>
+
+      <div class="col-sm-3">
+        <img src="images/svek.png" alt="" width="100%">
+        <p id="datalibros">
+          <br>
+          SVEK | 2003 | SK 063
+        </p>
+        <h4 id="precio">$ 1600</h4>
+          <h5>DOMINGOS EP | FLEUR</h5>
+          <p id="datalibros">
+            Housey electro from Jesper Dahlbäck and Stephan Griede.
+        </p>
+      </div>
+    </div>
+</li>
+<br>
+<li>
+<div class="row">
+        <div class="col-sm-3">
+
+          <img src="images/madridgroove3.jpg" alt="" width="100%">
+                <p id="datalibros">
+                  <br>
+                THANK YOU | 2019 | THANKYOU003
+              </p>
+              <h4 id="precio">$ 1600</h4>
+                <h5>MADRID GROOVE ‎| ARSA</h5>
+                <p id="datalibros">
+                Obscure but highly sought-after chunk of Balearic house from 1989.
+              </p>
+        </div>
+        <div class="col-sm-3">
+          <img src="images/titontonfabrice1.png" alt="" width="100%">
+                  <p id="datalibros">
+                    <br>
+                  RAWAX | 2017 | RAWAX 016Ltd
+                </p>
+                <h4 id="precio">$ 1400</h4>
+                  <h5>SENSUAL EP | TITONTON DUVANTÉ & FABRICE LIG</h5>
+                  <p id="datalibros">
+                  Swinging, warmly melodic, bouncy 1990s Detroit Techno schooled EP
+                </p>
+        </div>
+
+        <div class="col-sm-3">
+          <img src="images/anfvisions.png" alt="" width="100%">
+                  <p id="datalibros">
+                    <br>
+                  NAFF | 2018 | NAFF002
+                </p>
+                <h4 id="precio">$ 2400</h4>
+                  <h5>VISIONS | ANF </h5>
+                  <p id="datalibros">
+                  Crunched out sci-chedelic jams, ready for the new age.
+                </p>
+        </div>
+
+        <div class="col-sm-3">
+          <img src="images/reedale.png" alt="" width="100%">
+          <p id="datalibros">
+            <br>
+            FRUSTRATED FUNK | 2019 | FR039
+          </p>
+          <h4 id="precio">$ 1600</h4>
+            <h5>ETERNAL RETURN | REEDALE RISE</h5>
+            <p id="datalibros">
+              Subtly atmospheric, classic Electro EP
+          </p>
+        </div>
+      </div>
+
+
+</body>
+</li>
+
+<br>
+
+<li>
+<div class="row">
+        <div class="col-sm-3">
+
+          <img src="images/shades.png" alt="" width="100%">
+                <p id="datalibros">
+                  <br>
+                FRAME OF MIND | 2017 | FOM003
+              </p>
+              <h4 id="precio">$ 1600</h4>
+                <h5>DEEPEST SHADES E.P. | SHADES OF BLACK</h5>
+                <p id="datalibros">
+                Seven exquisite deep house cuts for you by producer Toyin Agbetu.
+              </p>
+        </div>
+        <div class="col-sm-3">
+          <img src="images/larry.png" alt="" width="100%">
+                  <p id="datalibros">
+                    <br>
+                    RED EMBER RECRODS | 2018 | RERV005
+                </p>
+                <h4 id="precio">$ 1400</h4>
+                  <h5>SUMMER LOVE AFFAIR | LARRY HOUL </h5>
+                  <p id="datalibros">
+                  Three cuts of purist deep house
+                </p>
+        </div>
+
+        <div class="col-sm-3">
+          <img src="images/gosu.png" alt="" width="100%">
+                  <p id="datalibros">
+                    <br>
+                    GOSU | 2016 | GOSU 001
+                </p>
+                <h4 id="precio">$ 2400</h4>
+                  <h5>FAKE ID ENTRY | THOMAS ROOGE </h5>
+                  <p id="datalibros">
+                  Three pumping peak-time bombs.
+                </p>
+        </div>
+
+        <div class="col-sm-3">
+          <img src="images/eamonn.png" alt="" width="100%">
+          <p id="datalibros">
+            <br>
+            EKLO | 2019 | EKLO041
+          </p>
+          <h4 id="precio">$ 1600</h4>
+            <h5>GHOST OF THE MACHINE | EAMONN DOYLE</h5>
+            <p id="datalibros">
+              Groovy beats with detroit flavours.
+          </p>
+        </div>
+      </div>
+</li>
+
+<br>
+
+<li>
+<div class="row">
+        <div class="col-sm-3">
+
+          <img src="images/goiz.png" alt="" width="100%">
+                <p id="datalibros">
+                  <br>
+                  OPEN SPACE | 2019 | OS - 001
+              </p>
+              <h4 id="precio">$ 1600</h4>
+                <h5> GREEN | GOIZ </h5>
+                <p id="datalibros">
+                Slower tempos, intricate percussive patterns, and an underwater acid feel that’s reminiscent of Plastikman and early Move D.
+              </p>
+        </div>
+        <div class="col-sm-3">
+          <img src="images/liquid.png" alt="" width="100%">
+                  <p id="datalibros">
+                    <br>
+                    TERRAFIRM® | 2019 | TERRAFIRM 4
+                </p>
+                <h4 id="precio">$ 1400</h4>
+                  <h5>MICROSMOSIS | LIQUID EEARTH </h5>
+                  <p id="datalibros">
+                  TerraFirm provides the desiccated, toxified, irradiated or otherwise uninhabitable planets of this sector with a suite of services to rectify any environmental challenge.
+                </p>
+        </div>
+
+        <div class="col-sm-3">
+          <img src="images/smallhours.png" alt="" width="100%">
+                  <p id="datalibros">
+                    <br>
+                    SMALL HOURS | 2019 | SMALLHOURS-001
+                </p>
+                <h4 id="precio">$ 2400</h4>
+                  <h5>SMALL HOURS 001 | VARIOUS ‎ </h5>
+                  <p id="datalibros">
+                  Compiled by Youandewan, Small Hours is a VA-only label devoted to the music of friends and like-minded producers in Berlin & beyond.
+                </p>
+        </div>
+
+        <div class="col-sm-3">
+          <img src="images/casavoy1.png" alt="" width="100%">
+          <p id="datalibros">
+            <br>
+            CASA VOYAGER | 2017 | CSV01
+          </p>
+          <h4 id="precio">$ 1600</h4>
+            <h5>CASA SPORTS VOL.1 | VARIOUS </h5>
+            <p id="datalibros">
+              Debut release of Casa Voyager, exploring hidden cultural spheres in Casablanca.
+          </p>
+        </div>
+      </div>
+</li>
+
+<br>
+
+<li>
+<div class="row">
+              <div class="col-sm-3">
+
+                <img src="images/ricardo.jpg" alt="" width="100%">
+                      <p id="datalibros">
+                        <br>
+                        VIBRAPHONE RECORDS | 2019 | VIBR 020
+                    </p>
+                    <h4 id="precio">$ 1600</h4>
+                      <h5> HIGH FLYER | RICARDO </h5>
+                      <p id="datalibros">
+                      Ethereal and ambient Dream House.
+                    </p>
+              </div>
+              <div class="col-sm-3">
+                <img src="images/yay.png" alt="" width="100%">
+                        <p id="datalibros">
+                          <br>
+                          YAY RECORDINGS | 2019 | YAY011
+                      </p>
+                      <h4 id="precio">$ 1400</h4>
+                        <h5>OFF THE RACK | SUPPLY </h5>
+                        <p id="datalibros">
+                        An hermetically sealed off sound universe that oddly billows between the absurd nostalgia of a crying seagull and the modern i-dont-give-a-fuckery of hedonistic club culture
+                      </p>
+              </div>
+
+              <div class="col-sm-3">
+                <img src="images/ewan.png" alt="" width="100%">
+                        <p id="datalibros">
+                          <br>
+                          RED EMBER RECORDS | 2016 | RERV003
+                      </p>
+                      <h4 id="precio">$ 2400</h4>
+                        <h5>AQUA LIBRE | EWAN JANSEN ‎ </h5>
+                        <p id="datalibros">
+                        An aquatic house music tale that is equally lost at sea as it is freely swimming in the ocean.
+                      </p>
+              </div>
+
+              <div class="col-sm-3">
+                <img src="images/huerta.png" alt="" width="100%">
+                <p id="datalibros">
+                  <br>
+                  AMADEUS RECORDS | 2019 | AMA019
+                </p>
+                <h4 id="precio">$ 1600</h4>
+                  <h5> AMASO | HUERTA </h5>
+                  <p id="datalibros">
+                    Emotive, neon-lit vibe to lush rolling breaks
+                </p>
+              </div>
+            </div>
+</li>
+
+<br>
+<li>
+<div class="row">
+                    <div class="col-sm-3">
+
+                      <img src="images/acme.png" alt="" width="100%">
+                            <p id="datalibros">
+                              <br>
+                              ONLY ONE MUSIC | 2018 | ONLY9
+                          </p>
+                          <h4 id="precio">$ 1600</h4>
+                            <h5> THINGS OF LIFE | ACME </h5>
+                            <p id="datalibros">
+                              House classic originally released on Delirium U.S.A. in 1998.
+                          </p>
+                    </div>
+                    <div class="col-sm-3">
+                      <img src="images/finlow.png" alt="" width="100%">
+                              <p id="datalibros">
+                                <br>
+                                CRAIGIE KNOWES | 2018 | CKNOWEP12
+                            </p>
+                            <h4 id="precio">$ 1400</h4>
+                              <h5>BOOLEAN | CARL FINLOW </h5>
+                              <p id="datalibros">
+                              A trip through clouds of stellar dust with the power to rumble any dancefloor exposed to its radiation.
+                            </p>
+                    </div>
+
+                    <div class="col-sm-3">
+                      <img src="images/joe.png" alt="" width="100%">
+                              <p id="datalibros">
+                                <br>
+                                CLONE | 2017 | CAL010
+                            </p>
+                            <h4 id="precio">$ 2400</h4>
+                              <h5>SUNDAY NIGHT LIVE AT THE LAPTOP CAFE | THE OTHER PEOPLE PLACE ‎ </h5>
+                              <p id="datalibros">
+                              Dreamy chunk of outer space warmth
+                            </p>
+                    </div>
+
+                    <div class="col-sm-3">
+                      <img src="images/thinking.png" alt="" width="100%">
+                      <p id="datalibros">
+                        <br>
+                        FRAME OF MIND | 2017 | FOM002
+                      </p>
+                      <h4 id="precio">$ 1600</h4>
+                        <h5> IT'S THINKING | AFTERGLOW </h5>
+                        <p id="datalibros">
+                           Five warm and atmospheric house tracks.
+                      </p>
+                    </div>
+                  </div>
+</li>
+</ul>
+
+<div id="loadMore">Load more</div>
+<div id="showLess">Show less</div>
+
+</html>
