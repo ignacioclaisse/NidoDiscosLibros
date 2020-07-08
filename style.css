@@ -139,11 +139,14 @@ h4 {
 #myList li{ display:none;
 }
 #loadMore {
-    color:green;
+		font-size: 40px;
+    color:black;
     cursor:pointer;
+		text-align: center;
 }
 #loadMore:hover {
     color:black;
+		font-weight: bold;
 }
 #showLess {
     color:red;
@@ -207,4 +210,11 @@ ul {
 
 #pad {
 	padding: 0px;
+}
+
+#autores {
+	position: absolute;
+	top: 94%;
+	right: 2%;
+	color: white;
 }
