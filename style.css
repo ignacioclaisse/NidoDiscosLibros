@@ -185,8 +185,6 @@ ul {
 }
 
 .slick-prev::before {
-		font-family: monospace;
-    font-family: 'cursive';
     font-stretch: condensed;
     content: "<";
     font-size: 55px;
@@ -196,7 +194,6 @@ ul {
 
 }
 .slick-next::before {
-		font-family: "Helvetica Neue";
     font-stretch: condensed;
     content:  ">";
     font-size: 55px;
