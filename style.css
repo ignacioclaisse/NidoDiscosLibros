@@ -50,7 +50,19 @@ a:hover {
 .col-sm-3{
 	padding: 3px;
 }
+
+.col-6 col-sm-3{
+	padding: 3px;
+}
+
 .col-sm-6{
+	padding: 0px;
+}
+.col-6{
+	padding: 3px;
+}
+
+#fots{
 	padding: 0px;
 }
 
@@ -214,7 +226,7 @@ ul {
 
 #autores {
 	position: absolute;
-	top: 94%;
+	bottom: 1%;
 	right: 2%;
 	color: white;
 }
